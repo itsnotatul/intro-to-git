@@ -68,8 +68,8 @@ app.use(campgroundRoutes);
 app.use(indexRoutes);
 
 
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`YelpCamp server is listening now on ${ PORT }`);
+});
 
-
-app.listen(3000,function(){
-	console.log("YelpCamp server is listening now.")
-})
