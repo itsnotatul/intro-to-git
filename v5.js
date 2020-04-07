@@ -24,10 +24,7 @@ mongoose.connect(url,{
 	useCreateIndex:true
 });
 
-// mongoose.connect("mongodb+srv://mceminem98:fuckyou2bitche$@cluster0-wa6wk.mongodb.net/yelpcamp?retryWrites=true&w=majority",{
-// 	useNewUrlParser:true,
-// 	useCreateIndex:true
-// });
+
 
 //seedDB(); // seeds th db
 
